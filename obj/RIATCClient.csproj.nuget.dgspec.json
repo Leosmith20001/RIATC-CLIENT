@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Curly\\Desktop\\RIATCClient\\RIATCClient\\RIATCClient.csproj": {}
+    "C:\\Users\\Curly\\Desktop\\RIATCClient\\RIATCClient.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Curly\\Desktop\\RIATCClient\\RIATCClient\\RIATCClient.csproj": {
+    "C:\\Users\\Curly\\Desktop\\RIATCClient\\RIATCClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Curly\\Desktop\\RIATCClient\\RIATCClient\\RIATCClient.csproj",
+        "projectUniqueName": "C:\\Users\\Curly\\Desktop\\RIATCClient\\RIATCClient.csproj",
         "projectName": "RIATCClient",
-        "projectPath": "C:\\Users\\Curly\\Desktop\\RIATCClient\\RIATCClient\\RIATCClient.csproj",
+        "projectPath": "C:\\Users\\Curly\\Desktop\\RIATCClient\\RIATCClient.csproj",
         "packagesPath": "C:\\Users\\Curly\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Curly\\Desktop\\RIATCClient\\RIATCClient\\obj\\",
+        "outputPath": "C:\\Users\\Curly\\Desktop\\RIATCClient\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Curly\\AppData\\Roaming\\NuGet\\NuGet.Config"

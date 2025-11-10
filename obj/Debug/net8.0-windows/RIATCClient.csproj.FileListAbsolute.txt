@@ -39,3 +39,4 @@ C:\Users\Curly\Desktop\RIATCClient\RIATCClient\bin\Debug\net8.0-windows\System.R
 C:\Users\Curly\Desktop\RIATCClient\RIATCClient\bin\Debug\net8.0-windows\System.Runtime.InteropServices.WindowsRuntime.dll
 C:\Users\Curly\Desktop\RIATCClient\RIATCClient\bin\Debug\net8.0-windows\runtimes\win\lib\net7.0\System.Management.dll
 C:\Users\Curly\Desktop\RIATCClient\RIATCClient\obj\Debug\net8.0-windows\RIATCCli.BDA1472E.Up2Date
+C:\Users\Curly\Desktop\RIATCClient\RIATCClient\obj\Debug\net8.0-windows\RIATCClient.sourcelink.json

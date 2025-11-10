@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KjgpizcKbVU=",
+  "dgSpecHash": "gh3wlo39RGk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Curly\\Desktop\\RIATCClient\\RIATCClient\\RIATCClient.csproj",
+  "projectFilePath": "C:\\Users\\Curly\\Desktop\\RIATCClient\\RIATCClient.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Curly\\.nuget\\packages\\firebaseadmin\\2.4.0\\firebaseadmin.2.4.0.nupkg.sha512",
     "C:\\Users\\Curly\\.nuget\\packages\\firebasedatabase.net\\4.0.4\\firebasedatabase.net.4.0.4.nupkg.sha512",
