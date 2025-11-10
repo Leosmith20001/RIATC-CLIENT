@@ -1,0 +1,65 @@
+<Window x:Class="RIATCClient.LoadingWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Initializing RIATC Network"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"
+        WindowStyle="None"
+        Width="900" Height="600"
+        Background="#00000000"
+        AllowsTransparency="True">
+
+    <Grid>
+        <!-- Same background -->
+        <Image Source="Assets/clouds.png"
+               Stretch="UniformToFill"
+               Panel.ZIndex="0"/>
+
+            <Border Width="400" Height="300"
+                    CornerRadius="20"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center"
+                    BorderBrush="#40FFFFFF"
+                    BorderThickness="1">
+                <Border.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                        <GradientStop Color="#BFFFFFFF" Offset="0.0"/>
+                       <GradientStop Color="#99FFFFFF" Offset="1.0"/>
+                   </LinearGradientBrush>
+               </Border.Background>
+
+            <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+                <Viewbox Width="100" Height="100" Margin="0,0,0,20">
+                    <Image Source="Assets/logo.svg" Stretch="Uniform"/>
+                </Viewbox>
+
+                <TextBlock Text="Initializing RIATC Network..."
+                           Foreground="#1E1E1E"
+                           FontSize="18"
+                           FontWeight="Bold"
+                           TextAlignment="Center"
+                           Margin="0,0,0,20"/>
+
+                <Ellipse Width="80" Height="80" Stroke="#0B389D" StrokeThickness="6" StrokeDashArray="20,10">
+                    <Ellipse.RenderTransform>
+                        <RotateTransform x:Name="spinner" Angle="0" CenterX="40" CenterY="40"/>
+                    </Ellipse.RenderTransform>
+                    <Ellipse.Triggers>
+                        <EventTrigger RoutedEvent="FrameworkElement.Loaded">
+                            <BeginStoryboard>
+                                <Storyboard RepeatBehavior="Forever">
+                                    <DoubleAnimation Storyboard.TargetName="spinner"
+                                                     Storyboard.TargetProperty="Angle"
+                                                     From="0" To="360"
+                                                     Duration="0:0:2"
+                                                     RepeatBehavior="Forever"/>
+                                </Storyboard>
+                            </BeginStoryboard>
+                        </EventTrigger>
+                    </Ellipse.Triggers>
+                </Ellipse>
+
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>
