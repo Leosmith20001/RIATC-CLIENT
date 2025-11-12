@@ -24,8 +24,8 @@
              BorderThickness="1">
              <Border.Background>
                  <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
-                     <GradientStop Color="#BFFFFFFF" Offset="0.0"/>
-                     <GradientStop Color="#99FFFFFF" Offset="1.0"/>
+                     <GradientStop Color="#0B389D" Offset="0.0"/>
+                     <GradientStop Color="#1E1E1E" Offset="1.0"/>
                  </LinearGradientBrush>
              </Border.Background>
 
@@ -35,25 +35,25 @@
 
                     <!-- Logo -->
                     <Viewbox Width="100" Height="100" Margin="0,0,0,20">
-                        <Image Source="Assets/logo.svg" Stretch="Uniform"/>
+                        <Image Source="Assets/logo.png" Stretch="Uniform"/>
                     </Viewbox>
 
                     <!-- Welcome text -->
                     <TextBlock Text="Welcome back"
                                FontSize="26"
                                FontWeight="Bold"
-                               Foreground="#1E1E1E"
+                               Foreground="#FFFFFF"
                                HorizontalAlignment="Center"
                                Margin="0,0,0,8"/>
                     <TextBlock Text="Please enter your details to sign in."
                                FontSize="14"
-                               Foreground="#444"
+                               Foreground="#FFFFFF"
                                HorizontalAlignment="Center"
                                Margin="0,0,0,30"/>
 
                     <!-- Email -->
                     <TextBlock Text="E-Mail Address"
-                               Foreground="#222"
+                               Foreground="#FFFFFF"
                                FontWeight="Bold"
                                Margin="0,0,0,5"/>
                     <Border CornerRadius="8" Background="#F9F9F9" BorderBrush="#CCC" BorderThickness="1" Margin="0,0,0,15">
@@ -67,7 +67,7 @@
 
                     <!-- Password -->
                     <TextBlock Text="Password"
-                               Foreground="#222"
+                               Foreground="#FFFFFF"
                                FontWeight="Bold"
                                Margin="0,0,0,5"/>
                     <Border CornerRadius="8" Background="#F9F9F9" BorderBrush="#CCC" BorderThickness="1" Margin="0,0,0,15">
@@ -87,7 +87,7 @@
                         </Grid.ColumnDefinitions>
 
                         <StackPanel Orientation="Horizontal" Grid.Column="0">
-                            <CheckBox Content="Remember me" Foreground="#333" VerticalAlignment="Center"/>
+                            <CheckBox Content="Remember me" Foreground="#FFFFFF" VerticalAlignment="Center"/>
                         </StackPanel>
 
                         <TextBlock Text="Forgot password?"
@@ -101,8 +101,8 @@
                     <!-- Sign In button -->
                     <Button Content="Sign In"
                             Click="Login_Click"
-                            Background="#1E1E1E"
-                            Foreground="White"
+                            Background="#FFFFFF"
+                            Foreground="#1E1E1E"
                             Height="45"
                             BorderThickness="0"
                             FontWeight="Bold"

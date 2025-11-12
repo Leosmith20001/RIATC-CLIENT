@@ -14,4 +14,9 @@
     <PackageReference Include="Google.Apis.Auth" Version="1.67.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <!-- Include all files in Assets as WPF Resources so pack URIs like /Assets/logo.png work -->
+    <Resource Include="Assets\logo.png" />
+  </ItemGroup>
+
 </Project>

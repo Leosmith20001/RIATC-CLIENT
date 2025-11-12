@@ -23,24 +23,24 @@
                     BorderThickness="1">
                 <Border.Background>
                     <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
-                        <GradientStop Color="#BFFFFFFF" Offset="0.0"/>
-                       <GradientStop Color="#99FFFFFF" Offset="1.0"/>
+                        <GradientStop Color="#0B389D" Offset="0.0"/>
+                       <GradientStop Color="#1E1E1E" Offset="1.0"/>
                    </LinearGradientBrush>
                </Border.Background>
 
             <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
                 <Viewbox Width="100" Height="100" Margin="0,0,0,20">
-                    <Image Source="Assets/logo.svg" Stretch="Uniform"/>
+                    <Image Source="Assets/logo.png" Stretch="Uniform"/>
                 </Viewbox>
 
                 <TextBlock Text="Initializing RIATC Network..."
-                           Foreground="#1E1E1E"
+                           Foreground="#FFFFFF"
                            FontSize="18"
                            FontWeight="Bold"
                            TextAlignment="Center"
                            Margin="0,0,0,20"/>
 
-                <Ellipse Width="80" Height="80" Stroke="#0B389D" StrokeThickness="6" StrokeDashArray="20,10">
+                <Ellipse Width="80" Height="80" Stroke="#FFFFFF" StrokeThickness="6" StrokeDashArray="20,10">
                     <Ellipse.RenderTransform>
                         <RotateTransform x:Name="spinner" Angle="0" CenterX="40" CenterY="40"/>
                     </Ellipse.RenderTransform>

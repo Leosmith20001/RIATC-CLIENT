@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RIATCClient")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e34f24bc9796562b010a44ccc7a35cca9c35dae9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+57d77338e67364efbe743f1e80e237b7d8c1d0a2")]
 [assembly: System.Reflection.AssemblyProductAttribute("RIATCClient")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RIATCClient")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
